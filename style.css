@@ -1,14 +1,75 @@
+/* body */
+body {
+    margin: 0;
+}
+
+/* header */
+.header {
+    text-align: center;
+    background-color: beige;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* main */
+main {
+    flex: 1;
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+}
+
 .profile {
     display: flex;
     gap: 60px;
 }
 .profile img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border-radius: 50%;
 }
 
+.photo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.photo::before {
+    content: "";
+    position: absolute;
+    top: -65px;
+    left: -65px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: beige;
+    z-index: 0;
+}
+
+.photo img {
+    position: relative;
+    z-index: 1;
+}
+
 .text h1 {
     border-bottom: 1px solid #000;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    background-color: beige;
+    padding: 20px 0;
 }
