@@ -21,7 +21,7 @@ body {
 }
 
 /* main */
-main {
+.main1 {
     flex: 1;
     padding: 110px;
     display: flex;
@@ -109,7 +109,49 @@ main {
     padding: 20px 0;
 }
 
+/* spot a */
+.main2 {
+    flex: 1;
+    padding: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.site_profile2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu {
+    margin-left: 120px;
+}
+
+.menu img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25%;
+}
+
+.top {
+    text-align: right;
+}
+
 /* spot b */
+.site_profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .site_profile img {
     width: 160px;
     height: 160px;
