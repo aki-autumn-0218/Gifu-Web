@@ -113,8 +113,14 @@ body {
 .main2 {
     flex: 1;
     padding: 110px;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.center {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .photo img {
