@@ -140,6 +140,15 @@ body {
     border-radius: 25%;
 }
 
+.yoko {
+    display: flex;
+    align-items: center;
+}
+
+.recommend {
+    margin-left: 200px;
+}
+
 .top {
     text-align: right;
 }
